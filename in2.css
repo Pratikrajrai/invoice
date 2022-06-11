@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: rgb(16, 13, 13);
+}
+.container{
+    width: 70vw;
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+}
+.med-invoice{
+text-align: center;
+}
+
+.line-1{
+border-top: 2px dashed rgb(139, 131, 131);
+margin-bottom: 8px;
+ margin-top: -12px;
+}
+
+.buyer-address{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale-details, .deal-date{
+    /* line-height: 10px; */
+}
+.sale-details-1{
+    display: flex;
+    /* flex-direction: column; */
+
+}
+
+.line-2{
+    border-top: 2px dashed rgb(139, 131, 131); 
+}
+
+/* ============================================ */
+
+/* <!-- sale section start --> */
+.table-section{
+    /* padding: 10rem; */
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+  
+  th {
+    /* border: 1px solid #dddddd;    */
+    text-align: center;
+    padding: 8px;
+    text-align: left;
+  }
+  td{
+    padding: 4px;
+    text-align:center;  
+  }
+  
+  .head{
+      border-bottom: 1px dashed rgb(139, 131, 131);
+  }
+  
+  .total-section{
+    margin-top: 10rem;
+      border-top: 2px dashed rgb(139, 131, 131);
+      border-bottom: 2px dashed rgb(139, 131, 131);
+
+  }
+
+  .total{
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+
+  }
+  .total-amount{
+ 
+    border-top:3px dashed rgb(139, 131, 131);
+    
+      border-bottom:3px dashed rgb(139, 131, 131);
+      margin-bottom: 8px;
+  }
+
+  .remark-list{
+      /* list-style: none; */
+  }
+
+  .note{
+      border-bottom: 2px dashed rgb(139, 131, 131);
+  }
+
+
+
+
+
+/* <!-- sale section ENDS--> */
